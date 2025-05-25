@@ -255,7 +255,7 @@ const PillowItem = ({ item }) => {
           
           <TouchableOpacity 
             style={styles.addToCartButton}
-            onPress={() => navigation.navigate('Product', { product: item })}>
+            onPress={() => navigation.navigate('Product', { product })}>
             <Ionicons name="cart-outline" size={18} color="#fff" />
           </TouchableOpacity>
         </View>

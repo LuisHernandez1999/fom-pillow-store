@@ -5,7 +5,7 @@ import { StatusBar } from 'expo-status-bar';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import EntryScreen from './screens/EntryScreen';
 import MainNavigator from './navigation/MainNavigator';
-import { ProductScreen } from './screens/ProductScreen';
+import ProductScreen  from './screens/ProductScreen';
 
 // Inicializa o navegador de pilha
 const Stack = createStackNavigator();
